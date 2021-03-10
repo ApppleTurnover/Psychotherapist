@@ -5,7 +5,6 @@
           v-for="psychotherapist of psychotherapists" :key="psychotherapist.id"
           v-bind:psychotherapist="psychotherapist"
       />
-      <hr>
     </ul>
   </div>
 </template>
